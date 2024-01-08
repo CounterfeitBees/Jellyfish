@@ -8,14 +8,18 @@
 
   <div class="sidebar">
     <button onclick="setNavAll()">All</button>
+    <button onclick="setNavReal()">Real</button>
     <button onclick="setNavNone()">None</button>
 
-    <br>
-    <iframe id="sidebar" src="sidebar.html" style="border: none;" width="100%"></iframe>
+    <br><iframe id="sidebar" src="sidebar.html" style="border: none;" width="100%" height="100%"></iframe>
 
     <script type="text/javascript">
       function setNavAll(){
         document.getElementById("sidebar").src = "sidebar.html";
+      }
+
+      function setNavReal(){
+        document.getElementById("sidebar").src = "sidebarReal.html";
       }
 
       function setNavNone() {
