@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html>
-<title>CounterfeitBees.com</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <title>counterfeitbees.com</title>
+</head>
 <body>
 
-  <h2>Welcome to Violet's Website!</h2>
+  <div class="sidebar">
+    <button onclick="setNav()">All</button>
+    <button onclick="setNavNone()">None</button>
+    <iframe src="sidebar.html" id="sidebar"></iframe>
 
-  <iframe src="sidebar.html" style="border:none;"></iframe>
+    <script type="text/javascript">
+      function setNav() {
+        document.getElementById("sidebar").style="border:none;";
+      }
+    </script>
+
+<!--     <script>
+      function setNav(navType) {
+        if (navType == "All") {
+          document.getElementById("sidebar").src = "sidebar.html"
+        }
+        else () {
+          document.getElementById("sidebar").src = " "
+        }
+      }
+    </script> -->
+
+  </div>
+
+  <div class="mainpage">
+    <h2>Welcome to Violet's Website!</h2>
+  </div>
 
 </body>
 </html>
