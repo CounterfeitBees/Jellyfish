@@ -55,5 +55,14 @@
   cursor: pointer;
 }
 
+.mainNav button {
+  background: none;
+  background-color: ghostwhite;
+  /*optional*/
+  /*input has OS specific font-family*/
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 
 

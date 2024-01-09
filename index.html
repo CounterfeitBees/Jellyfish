@@ -13,21 +13,19 @@
       <button onclick="setNavBlog()">Blog</button>
       <button onclick="setNavDONE()">DONE</button>
       <button onclick="setNavJournal()">Journal</button>
-
+    </div>
+    <div class="mainNav">
       <h4>
         <a href="index.html">Home</a>
         <br>
-        <button onclick="setContent()"></button>
-        <br>
         <a href="contact.html">Contact</a>
         <br>
-        <a href="quotes.html">Good Quotes</a>
+        <button onclick="setContent('Pages/quotes.html')">Good Quotes</button>
         <br>
         <a href="recomendations.html">Cool People</a>
       </h4> 
       <p><h3><u>Posts:</u></h3></p>
     </div>
-
     <div class="iframeNav">
       <iframe id="sidebar" src="Navbars/blogPosts.html" width="100%" height="100%"></iframe>
     </div>
@@ -60,8 +58,8 @@
   </div>
 
   <script type="text/javascript">
-    function setContent() {
-        document.getElementById("content").src = "Pages/quotes.html";
+    function setContent(newSrc) {
+        document.getElementById("content").src = newSrc;
       }
   </script>
 
