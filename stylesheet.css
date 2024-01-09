@@ -8,8 +8,8 @@
 	padding-top: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: black;
-	color: whitesmoke;
+	background-color: whitesmoke;
+	color: black;
 }
 
 .sidebar {
@@ -19,7 +19,7 @@
   z-index: 1; 
   top: 0;
   left: 0;
-  background-color: whitesmoke;
+  background-color: lightgreen;
   overflow-x: hidden;
   padding-top: 10px;
   padding-left: 10px;
@@ -30,8 +30,14 @@
 	height: calc(100% - 20px);
 }
 
+.buttons {
+	width: calc(100% - 20px);
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+
