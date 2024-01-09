@@ -16,7 +16,6 @@
   height: 100%;
   width: 20%; 
   position: fixed;
-  overflow-y: hidden;
   z-index: 1; 
   top: 0;
   left: 0;
@@ -41,4 +40,9 @@
   margin-right: auto;
 }
 
+.iframeNav {
+	height: calc(100% - 250px);
+	width: calc(100% - 20px);
+	min-height: 200px;
+}
 
