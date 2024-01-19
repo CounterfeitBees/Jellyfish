@@ -22,7 +22,7 @@ function setNavNone() {
   document.getElementById("sidebar").src = " ";
 }
 
-function setContentBlog() {
+function setContentBlog(newSrc) {
   document.getElementById("link").innerHTML = "projects.html";
-  window.parent.document.getElementById("content").src = "projects.html";
+  window.parent.document.getElementById("content").src = newSrc;
 }
