@@ -15,6 +15,8 @@
       <button onclick="setNavJournal()">Journal</button>
     </div>
     <div class="mainNav">
+      <br>
+      <br>
       <h4>
         <button onclick="setContent('Pages/welcome.html')">Home</button>
         <br>
@@ -23,45 +25,21 @@
         <button onclick="setContent('Pages/quotes.html')">Good Quotes</button>
         <br>
         <button onclick="setContent('Pages/people.html')">Cool People</button>
+        <br>
+        <button onclick="setContent('Pages/404.html')">404</button>
       </h4> 
       <p><h3><u>Posts:</u></h3></p>
     </div>
     <div class="iframeNav">
       <iframe id="sidebar" src="Navbars/blogPosts.html" width="100%" height="100%"></iframe>
     </div>
-
-    <script type="text/javascript">
-      function setNavAll(){
-        document.getElementById("sidebar").src = "Navbars/sidebar.html";
-      }
-
-      function setNavBlog(){
-        document.getElementById("sidebar").src = "Navbars/blogPosts.html";
-      }
-
-      function setNavDONE(){
-        document.getElementById("sidebar").src = "Navbars/projects.html";
-      }
-
-      function setNavJournal(){
-        document.getElementById("sidebar").src = "Navbars/journal.html";
-      }
-
-      function setNavNone() {
-        document.getElementById("sidebar").src = " ";
-      }
-    </script>
   </div>
 
   <div class="mainpage">
     <iframe id="content" src="Pages/welcome.html" height="100%" width="100%"></iframe>
   </div>
 
-  <script type="text/javascript">
-    function setContent(newSrc) {
-        document.getElementById("content").src = newSrc;
-      }
-  </script>
+  <script src="islandCode.js"></script>
 
 </body>
 </html>
