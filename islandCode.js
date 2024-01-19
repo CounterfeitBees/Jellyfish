@@ -23,6 +23,5 @@ function setNavNone() {
 }
 
 function setContentBlog(newSrc) {
-  document.getElementById("link").innerHTML = "projects.html";
   window.parent.document.getElementById("content").src = newSrc;
 }
