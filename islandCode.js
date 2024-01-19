@@ -24,5 +24,5 @@ function setNavNone() {
 
 function setContentBlog() {
   document.getElementById("link").innerHTML = "projects.html";
-  window.parent.document.getElementById('yourdiv').src = "projects.html";
+  parent.document.getElementById('yourdiv').src = "projects.html";
 }
