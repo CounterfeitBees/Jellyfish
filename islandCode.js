@@ -14,8 +14,8 @@ function setNavDONE(){
   document.getElementById("sidebar").src = "Navbars/projects.html";
 }
 
-function setNavJournal(){
-  document.getElementById("sidebar").src = "Navbars/journal.html";
+function setNavScience(){
+  document.getElementById("sidebar").src = "Navbars/science.html";
 }
 
 function setNavNone() {
