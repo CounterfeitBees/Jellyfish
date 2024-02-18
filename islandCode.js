@@ -25,3 +25,11 @@ function setNavNone() {
 function setContentBlog(newSrc) {
   window.parent.document.getElementById("content").src = newSrc;
 }
+
+function giveRandomColor() {
+  return(Math.floor(Math.random() * 256)-1);
+}
+
+function funColors() {
+
+}
