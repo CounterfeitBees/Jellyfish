@@ -1,4 +1,4 @@
-var sideBarContent = "Navbars/blogPosts.html"
+var sideBarContent = "/Navbars/blogPosts.html"
 
 function setSideBarScr() {
   document.getElementById("sidebar").src = sideBarContent;
