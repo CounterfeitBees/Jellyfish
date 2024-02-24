@@ -1,5 +1,4 @@
-var sidebarContent = "/Navbars/blogPosts.html"
-localStorage.setItem("sidebarContent", sidebarContent);
+localStorage.setItem("sidebarContent", '/Jellyfish/Navbars/blogPosts.html');
 
 function setSidebarScr() {
   sidebarContent = localStorage.getItem("sidebarContent")
@@ -11,8 +10,7 @@ function setContent(newSrc) {
 }
 
 function setSidebar(newSrc){
-  sidebarContent = newSrc;
-  localStorage.setItem("sidebarContent", sidebarContent);
+  localStorage.setItem("sidebarContent", newSrc);
   setSideBarScr();
 }
 
