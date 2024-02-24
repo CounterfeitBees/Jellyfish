@@ -1,8 +1,8 @@
 var sidebarContent = "/Navbars/blogPosts.html"
-console.log(sidebarContent)
+localStorage.setItem("sidebarContent", sidebarContent);
 
 function setSidebarScr() {
-  console.log(sidebarContent)
+  sidebarContent = localStorage.getItem("sidebarContent")
   document.getElementById("sidebar").src = sidebarContent;
 }
 
@@ -11,9 +11,8 @@ function setContent(newSrc) {
 }
 
 function setSidebar(newSrc){
-  console.log(sidebarContent)
   sidebarContent = newSrc;
-  console.log(sidebarContent)
+  localStorage.setItem("sidebarContent", sidebarContent);
   setSideBarScr();
 }
 
