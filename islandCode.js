@@ -1,7 +1,9 @@
-var sideBarContent = "/Navbars/blogPosts.html"
+var sidebarContent = "/Navbars/blogPosts.html"
+console.log(sidebarContent)
 
 function setSidebarScr() {
-  document.getElementById("sidebar").src = sideBarContent;
+  console.log(sidebarContent)
+  document.getElementById("sidebar").src = sidebarContent;
 }
 
 function setContent(newSrc) {
@@ -9,7 +11,9 @@ function setContent(newSrc) {
 }
 
 function setSidebar(newSrc){
-  sideBarContent = newSrc;
+  console.log(sidebarContent)
+  sidebarContent = newSrc;
+  console.log(sidebarContent)
   setSideBarScr();
 }
 
