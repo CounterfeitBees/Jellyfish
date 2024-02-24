@@ -10,7 +10,7 @@ function setContent(newSrc) {
 
 function setSidebar(newSrc){
   localStorage.setItem("sidebarContent", newSrc);
-  setSideBarScr(localStorage.getItem("sidebarContent"));
+  setSidebarSrc(localStorage.getItem("sidebarContent"));
 }
 
 function setContentBlog(newSrc) {
