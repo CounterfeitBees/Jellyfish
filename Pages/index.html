@@ -8,10 +8,10 @@
 
   <div class="sidebar">
     <div class="buttons">
-      <button onclick="setSidebarScr('Jellyfish/Navbars/blogPosts.html')">Broken (All)</button>
-      <button onclick="setSidebarScr('')">None</button>
-      <button onclick="setSidebarScr('../Navbars/blogPosts.html')">Links</button>
-      <button onclick="setSidebarScr('/Jellyfish/Navbars/blogPosts.html')">Broken (Done)</button>
+      <button onclick="setSidebar('Jellyfish/Navbars/blogPosts.html')">Broken (All)</button>
+      <button onclick="setSidebar('')">None</button>
+      <button onclick="setSidebar('../Navbars/blogPosts.html')">Links</button>
+      <button onclick="setSidebarSrc('/Jellyfish/Navbars/blogPosts.html')">Broken (Done)</button>
       <!-- <button onclick="setNavScience()">Broken (Science)</button> -->
     </div>
     <div class="mainNav">
@@ -33,7 +33,7 @@
     <div class="iframeNav">
       <iframe id="sidebar" width="100%" height="100%"></iframe>
       <script src ="/Jellyfish/islandCode.js">
-        setSidebarScr('/Jellyfish/Navbars/blogPosts.html');
+        setSidebar('/Jellyfish/Navbars/blogPosts.html');
       </script>
     </div>
   </div>
