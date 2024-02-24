@@ -1,6 +1,6 @@
 var sideBarContent = "/Navbars/blogPosts.html"
 
-function setSideBarScr() {
+function setSidebarScr() {
   document.getElementById("sidebar").src = sideBarContent;
 }
 
