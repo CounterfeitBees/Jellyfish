@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="/Jellyfish/stylesheet.css">
   <title>Violet's Site!</title>
 </head>
 <body>
@@ -10,7 +10,7 @@
     <div class="buttons">
       <button onclick="setNavAll()">Broken (All)</button>
       <button onclick="setSideBarSrc('')">None</button>
-      <button onclick="setSideBarSrc('/Navbars/blogPosts.html')">Links</button>
+      <button onclick="setSideBarSrc('/Jellyfish/Navbars/blogPosts.html')">Links</button>
       <button onclick="setNavDONE()">Broken (Done)</button>
       <!-- <button onclick="setNavScience()">Broken (Science)</button> -->
     </div>
@@ -26,7 +26,7 @@
         <br>
         <button onclick="window.location.href = 'people.html'">Cool People</button>
         <br>
-        <button onclick="setContent('/Content/404.html')">404</button>
+        <button onclick="setContent('/Jellyfish/Content/404.html')">404</button>
       </h4> 
       <p><h3><u>Posts:</u></h3></p>
     </div>
@@ -39,11 +39,11 @@
   </div>
 
   <div class="mainpage">
-    <!-- This is the only part you need to worry about! Set the src to ../Content/[Page Contents].html! -->
-    <iframe id="content" src="/Content/welcome.html" height="100%" width="100%"></iframe>
+    <!-- This is the only part you need to worry about! Set the src to ../Jellyfish/Content/[Page Contents].html! -->
+    <iframe id="content" src="/Jellyfish/Content/welcome.html" height="100%" width="100%"></iframe>
   </div>
 
-  <script src="/islandCode.js"></script>
+  <script src="/Jellyfish/islandCode.js"></script>
 
 </body>
 </html>
