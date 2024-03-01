@@ -5,6 +5,7 @@ html *
 
 .mainpage {
 	height: 100%;
+  max-width: 700px;
 	overflow-y:auto;
 	width: calc(100% - 200px);
 	position: fixed;
