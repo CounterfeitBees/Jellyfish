@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/Jellyfish/stylesheet.css">
+  <title>Violet's Site!</title>
+</head>
+<body>
+
+  <div class="sidebar">
+    <div class="buttons">
+      <button onclick="setSidebar('Jellyfish/Navbars/blogPosts.html')">Broken (All)</button>
+      <button onclick="setSidebar('')">None</button>
+      <button onclick="setSidebar('../Navbars/blogPosts.html')">Links</button>
+      <button onclick="setSidebarSrc('/Jellyfish/Navbars/blogPosts.html')">Broken (Done)</button>
+      <!-- <button onclick="setNavScience()">Broken (Science)</button> -->
+    </div>
+    <div class="mainNav">
+      <br>
+      <br>
+      <h4>
+        <button onclick="window.location.href = '/Jellyfish/Pages/index.html'">Home</button>
+        <br>
+        <button onclick="window.location.href = '/Jellyfish/Pages/contact.html'">Contact</button>
+        <br>
+        <button onclick="window.location.href = '/Jellyfish/Pages/quotes.html'">Good Quotes</button>
+        <br>
+        <button onclick="window.location.href = '/Jellyfish/Pages/people.html'">Cool People</button>
+        <br>
+        <button onclick="setContent('/Jellyfish/Content/404.html')">404</button>
+      </h4> 
+      <p><h3><u>Posts:</u></h3></p>
+    </div>
+    <div class="iframeNav">
+      <iframe id="sidebar" src="/Jellyfish/Navbars/blogPosts.html" width="100%" height="100%"></iframe>
+    </div>
+  </div>
+
+  <div class="mainpage">
+    <!-- This is the only part you need to worry about! Set the src to ../Jellyfish/Content/[Page Contents].html! -->
+    <iframe id="content" src="/Jellyfish/Content/BlogPosts/ReplicationCrisis.html" height="100%" width="100%"></iframe>
+  </div>
+
+  <script src="../islandCode.js"></script>
+
+</body>
+</html>
